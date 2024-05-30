@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Client</title>
+    <title>Keypress Event Task</title>
     <!-- View-port Basics: http://mzl.la/VYREaP -->
     <!-- This meta tag is used for mobile device to display the page without any zooming,
        so how much the device is able to fit on the screen is what's shown initially. 
@@ -35,6 +35,25 @@
       <!--header section start-->
       <!--main section start-->
       <main>
+        <section class="main">
+          <div class="wrapper">
+            <form autocomplete="off">
+              <h1>
+                Enter all of the choices divided by a common (','). Press enter
+                when you're done
+              </h1>
+              <textarea
+                type="text"
+                id="word-input"
+                placeholder="Enter choices here..."
+                rows="4"
+                cols="40"
+              ></textarea>
+              <!-- <input type="text" id="word-input" placeholder="Enter choices here"/> -->
+              <div id="buttons-container"></div>
+            </form>
+          </div>
+        </section>
       </main>
       <!--main section end-->
       <!--footer section start-->
